@@ -117,6 +117,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CPP_Basic.cpp" />
+    <ClCompile Include="hello.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hello.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
