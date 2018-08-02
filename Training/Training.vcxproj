@@ -119,6 +119,7 @@
     <ClCompile Include="basic_data_types.cpp" />
     <ClCompile Include="conditionals.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="for_loop.cpp" />
@@ -127,6 +128,7 @@
     <ClInclude Include="basic_data_types.h" />
     <ClInclude Include="conditionals.h" />
     <ClInclude Include="for_loop.h" />
+    <ClInclude Include="functions.h" />
     <ClInclude Include="hello.h" />
     <ClInclude Include="input_output.h" />
   </ItemGroup>
