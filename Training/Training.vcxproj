@@ -123,6 +123,7 @@
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="for_loop.cpp" />
+    <ClCompile Include="pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic_data_types.h" />
@@ -131,6 +132,7 @@
     <ClInclude Include="functions.h" />
     <ClInclude Include="hello.h" />
     <ClInclude Include="input_output.h" />
+    <ClInclude Include="pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
