@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "conditionals.h"
+#include "for_loop.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -9,7 +9,7 @@
 int main() {
     int result = 1;
 
-    result = hackerrank::conditionals();
+    result = hackerrank::for_loop();
     
     system("pause");
     return result;

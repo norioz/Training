@@ -30,6 +30,9 @@
     <ClCompile Include="conditionals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="for_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="conditionals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="for_loop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
