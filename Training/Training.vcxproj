@@ -117,12 +117,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="basic_data_types.cpp" />
+    <ClCompile Include="conditionals.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="input_output.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic_data_types.h" />
+    <ClInclude Include="conditionals.h" />
     <ClInclude Include="hello.h" />
     <ClInclude Include="input_output.h" />
   </ItemGroup>

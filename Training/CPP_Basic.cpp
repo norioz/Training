@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "basic_data_types.h"
+#include "conditionals.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -9,7 +9,7 @@
 int main() {
     int result = 1;
 
-    result = hackerrank::basic_data_types();
+    result = hackerrank::conditionals();
     
     system("pause");
     return result;
