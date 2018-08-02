@@ -1,5 +1,5 @@
-#include <iostream>
-#include "hello.h"
+#include <cstdlib>
+#include "basic_data_types.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -9,9 +9,8 @@
 int main() {
     int result = 1;
 
-    result = hackerrank::hello();
-
-    std::cout << "Press any key to quit....";
-    std::cin.get();
+    result = hackerrank::basic_data_types();
+    
+    system("pause");
     return result;
 }

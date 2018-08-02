@@ -21,9 +21,21 @@
     <ClCompile Include="hello.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="input_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_data_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_data_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
