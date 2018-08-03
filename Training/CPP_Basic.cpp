@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "pointers.h"
+#include "arrays_intro.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -9,7 +9,7 @@
 int main() {
     int result = 1;
 
-    result = hackerrank::pointers();
+    result = hackerrank::arrays_intro();
     
     system("pause");
     return result;

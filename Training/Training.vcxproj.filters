@@ -39,6 +39,9 @@
     <ClCompile Include="pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="arrays_intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arrays_intro.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
