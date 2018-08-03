@@ -2,7 +2,8 @@
 #include <cstdio>
 #include "arrays_intro.h"
 
-int hackerrank::arrays_intro() {
+int hackerrank::arrays_intro()
+{
     int n;
     int arr[10000];
     scanf("%d", &n);

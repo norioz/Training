@@ -6,7 +6,8 @@
 // code samples from the "C++ training" section of
 // hackerrank.com.
 
-int main() {
+int main()
+{
     int result = 1;
 
     result = hackerrank::arrays_intro();

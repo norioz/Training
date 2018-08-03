@@ -3,7 +3,8 @@
 #include <cstdio>
 #include "pointers.h"
 
-void update(int *a, int *b) {
+void update(int *a, int *b)
+{
     int sum = *a + *b;
     int diff = *a - *b;
     *a = sum;
@@ -15,7 +16,8 @@ void update(int *a, int *b) {
     }
 }
 
-int hackerrank::pointers() {
+int hackerrank::pointers()
+{
     int a, b;
     int *pa = &a, *pb = &b;
     

@@ -1,7 +1,8 @@
 #include <iostream>
 #include "conditionals.h"
 
-int hackerrank::conditionals() {
+int hackerrank::conditionals()
+{
     int n;
     std::cin >> n;
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');

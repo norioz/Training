@@ -3,7 +3,8 @@
 #include <iostream>
 #include "functions.h"
 
-int max_of_four(int a, int b, int c, int d) {
+int max_of_four(int a, int b, int c, int d)
+{
     int max = a;
     if (b > max) {
         max = b;
@@ -17,7 +18,8 @@ int max_of_four(int a, int b, int c, int d) {
     return max;
 }
 
-int hackerrank::functions() {
+int hackerrank::functions()
+{
     int a, b, c, d;
     scanf("%d %d %d %d", &a, &b, &c, &d);
     int ans = max_of_four(a, b, c, d);

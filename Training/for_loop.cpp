@@ -1,7 +1,8 @@
 #include <iostream>
 #include "for_loop.h"
 
-int hackerrank::for_loop() {
+int hackerrank::for_loop()
+{
     int a, b;
     std::cin >> a >> b;
     for (int i = a; i <= b; i++) {

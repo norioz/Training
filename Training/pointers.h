@@ -12,6 +12,8 @@
 // Output
 // You have to print the updated value of a and b, on two different lines.
 
-namespace hackerrank{
-    int pointers();
+namespace hackerrank {
+
+int pointers();
+
 }
