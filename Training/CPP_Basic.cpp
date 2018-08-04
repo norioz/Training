@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "arrays_intro.h"
+#include "variable_size_arrays.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,8 +10,9 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::arrays_intro();
+    result = hackerrank::variable_size_arrays();
     
     system("pause");
     return result;
 }
+
