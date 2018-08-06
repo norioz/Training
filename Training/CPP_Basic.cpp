@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "strings.h"
+#include "structs.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,9 +10,8 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::strings();
+    result = hackerrank::structs();
     
     system("pause");
     return result;
 }
-
