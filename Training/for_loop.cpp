@@ -19,7 +19,7 @@ const char * digit_to_string(int i) {
 }
 
 //Es- Or more elegantly, an array.
-const char * digit_names[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+ static const char * const digit_names[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
 int hackerrank::for_loop()
 {
