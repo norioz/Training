@@ -21,7 +21,7 @@ int hackerrank::pointers()
     int a, b;
     int *pa = &a, *pb = &b;
     
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", pa, pb);
     update(pa, pb);
     printf("%d\n%d\n", a, b);
 
