@@ -8,7 +8,7 @@ int hackerrank::strings()
 {
     string a, b;
     //ES- Note: Cin on strings won't capture whitespaces.
-    //Consider checking out the getline class of cin functions.
+    //Consider checking out getline.
     cin >> a >> b;
     
 
