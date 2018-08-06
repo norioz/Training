@@ -8,7 +8,7 @@ int hackerrank::conditionals()
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     if (n > 9) {
         std::cout << "Greater than 9";
-    }
+    } //-Es Note: See 'for-loop' diff, consider an array or a switch statement.
     else if (n == 1) {
         std::cout << "one";
     }
