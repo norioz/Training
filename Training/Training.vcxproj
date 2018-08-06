@@ -119,6 +119,7 @@
     <ClCompile Include="arrays_intro.cpp" />
     <ClCompile Include="attribute_parser.cpp" />
     <ClCompile Include="basic_data_types.cpp" />
+    <ClCompile Include="classes.cpp" />
     <ClCompile Include="conditionals.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="functions.cpp" />
@@ -135,6 +136,7 @@
     <ClInclude Include="arrays_intro.h" />
     <ClInclude Include="attribute_parser.h" />
     <ClInclude Include="basic_data_types.h" />
+    <ClInclude Include="classes.h" />
     <ClInclude Include="conditionals.h" />
     <ClInclude Include="for_loop.h" />
     <ClInclude Include="functions.h" />
