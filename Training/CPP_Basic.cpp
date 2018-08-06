@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "stringstream.h"
+#include "attribute_parser.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::stringstream();
+    result = hackerrank::attribute_parser();
     
     system("pause");
     return result;
