@@ -125,6 +125,7 @@
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="for_loop.cpp" />
     <ClCompile Include="pointers.cpp" />
+    <ClCompile Include="strings.cpp" />
     <ClCompile Include="stringstream.cpp" />
     <ClCompile Include="variable_size_arrays.cpp" />
   </ItemGroup>
@@ -137,6 +138,7 @@
     <ClInclude Include="hello.h" />
     <ClInclude Include="input_output.h" />
     <ClInclude Include="pointers.h" />
+    <ClInclude Include="strings.h" />
     <ClInclude Include="stringstream.h" />
     <ClInclude Include="variable_size_arrays.h" />
   </ItemGroup>

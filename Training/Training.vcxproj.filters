@@ -48,6 +48,9 @@
     <ClCompile Include="stringstream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -78,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stringstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
