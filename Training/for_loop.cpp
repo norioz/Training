@@ -1,48 +1,41 @@
 #include <iostream>
 #include "for_loop.h"
 
+//Es- Consider a switch statement:
+const char * digit_to_string(int i) {
+    switch(i) {
+        case  0: return "zero";       
+        case  1: return "one";
+        case  2: return "two";
+        case  3: return "three";
+        case  4: return "four";
+        case  5: return "five";
+        case  6: return "six";
+        case  7: return "seven";
+        case  8: return "eight";
+        case  9: return "nine";
+        default: return "Not a digit.";
+    }    
+}
+
+//Es- Or more elegantly, an array.
+const char * digit_names[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+
 int hackerrank::for_loop()
 {
     int a, b;
     std::cin >> a >> b;
-    for (int i = a; i <= b; i++) {
+    for (int i = a; i <= b; ++i) {
         if (i > 9) {
-            if (i % 2 == 1) {
-                std::cout << "odd";
-            }
-            else {
-                std::cout << "even";
-            }
+            std::cout << (i % 2 ? "odd" : "even"); //Es- Note: can inline w/a ternary here.
         }
-        else if (i == 1) {
-            std::cout << "one";
-        }
-        else if (i == 2) {
-            std::cout << "two";
-        }
-        else if (i == 3) {
-            std::cout << "three";
-        }
-        else if (i == 4) {
-            std::cout << "four";
-        }
-        else if (i == 5) {
-            std::cout << "five";
-        }
-        else if (i == 6) {
-            std::cout << "six";
-        }
-        else if (i == 7) {
-            std::cout << "seven";
-        }
-        else if (i == 8) {
-            std::cout << "eight";
-        }
-        else if (i == 9) {
-            std::cout << "nine";
+        else if (i < 0) {
+            std::cout << "Less than 1";            
         }
         else {
-            std::cout << "Less than 1";
+            std::cout << digit_to_string(i);
+            // OR
+            std::cout << digit_names[i];
         }
         std::cout << std::endl;
     }
