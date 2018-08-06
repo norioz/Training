@@ -7,7 +7,10 @@ using namespace std;
 int hackerrank::strings()
 {
     string a, b;
+    //ES- Note: Cin on strings won't capture whitespaces.
+    //Consider checking out the getline class of cin functions.
     cin >> a >> b;
+    
 
     // print the string sizes
     cout << a.size() << " " << b.size() << endl;
