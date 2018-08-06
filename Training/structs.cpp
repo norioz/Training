@@ -6,7 +6,8 @@
 using namespace std;
 
 //ES- Note: You can inline default values on structs and classes:
-struct Student { // Camel
+struct Student { //ES- Note: Camel is fine here, but most everything else has been very snakey.
+                 // with a mixed case environment, POD or simple objects will often match primitive styles.
     int age           = -1;
     string first_name = "INVALID";
     string last_name  = "INVALID";
