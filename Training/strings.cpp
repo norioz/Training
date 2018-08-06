@@ -20,8 +20,8 @@ int hackerrank::strings()
 
     // swap the first characters
     char t = a[0];
-    a[0] = b[0];
-    b[0] = t;
+    a[0]   = b[0];
+    b[0]   = t;
     cout << a << " " << b << endl;
 
     return 0;
