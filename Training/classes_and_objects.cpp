@@ -8,14 +8,14 @@ public:
     int scores[5];
     void input()
     {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; ++i) {
             cin >> scores[i];
         }
     }
     int calculateTotalScore()
     {
         int result = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; ++i) {
             result += scores[i];
         }
         return result;
@@ -23,11 +23,11 @@ public:
 };
 
 int hackerrank::classes_and_objects() {
-    int n; // number of students
+    int n = -1; // number of students
     cin >> n;
     Student *s = new Student[n]; // an array of n students
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; ++i) {
         s[i].input();
     }
 
@@ -36,7 +36,7 @@ int hackerrank::classes_and_objects() {
 
     // determine how many students scored higher than kristen
     int count = 0;
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < n; ++i) {
         int total = s[i].calculateTotalScore();
         if (total > kristen_score) {
             count++;

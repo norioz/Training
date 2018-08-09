@@ -7,7 +7,7 @@ using namespace std;
 class Complex
 {
 public:
-    int a, b;
+    int a = -1, b = -1;
     void input(string s)
     {
         int v1 = 0;
@@ -15,14 +15,14 @@ public:
         while (s[i] != '+')
         {
             v1 = v1 * 10 + s[i] - '0';
-            i++;
+            ++i;
         }
         while (s[i] == ' ' || s[i] == '+' || s[i] == 'i')
         {
-            i++;
+            ++i;
         }
         int v2 = 0;
-        while (i<s.length())
+        while (i < s.length())
         {
             v2 = v2 * 10 + s[i] - '0';
             i++;
@@ -48,6 +48,7 @@ ostream& operator<<(ostream& os, const Complex& c)
 
 int hackerrank::overload_operators()
 {
+    // START HACKERRANK BOILER PLATE
     Complex x, y;
     string s1, s2;
     cin >> s1;
@@ -57,4 +58,5 @@ int hackerrank::overload_operators()
     Complex z = x + y;
     cout << z << endl;
     return 0;
+    // END HACKERRANK BOILER PLATE
 }

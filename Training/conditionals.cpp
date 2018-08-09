@@ -3,9 +3,15 @@
 
 int hackerrank::conditionals()
 {
-    int n;
+    int n = -1;
     std::cin >> n;
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+    // This is an exercise specifically about the use of if/else but it
+    // should be noted that a switch would be preferrable here and
+    // the use of an array to map int indecies to strings would be
+    // both more elegant and more efficient.
+
     if (n > 9) {
         std::cout << "Greater than 9";
     }

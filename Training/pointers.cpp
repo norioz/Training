@@ -18,10 +18,14 @@ void update(int *a, int *b)
 
 int hackerrank::pointers()
 {
-    int a, b;
+    int a = -1, b = -1;
     int *pa = &a, *pb = &b;
     
-    scanf("%d %d", &a, &b);
+    // This statement could be
+    // scanf("%d %d", &a, &b)
+    // but & could be overloaded and, thus, surprisingly costly.
+    // We want to avoid this where a simpler transfer is available.
+    scanf("%d %d", pa, pb);
     update(pa, pb);
     printf("%d\n%d\n", a, b);
 

@@ -6,7 +6,7 @@ using namespace std;
 
 int hackerrank::strings()
 {
-    string a, b;
+    string a = "INVALID", b = "INVALID";
     cin >> a >> b;
 
     // print the string sizes

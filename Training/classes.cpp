@@ -7,10 +7,9 @@ using namespace std;
 
 class Student {
 private:
-    int m_age;
-    int m_standard;
-    string m_first_name;
-    string m_last_name;
+    int m_age = -1, m_standard = -1;
+    string m_first_name = "INVALID";
+    string m_last_name = "INVALID";
 public:
     void set_age(int age) { m_age = age; }
     int get_age() { return m_age; }

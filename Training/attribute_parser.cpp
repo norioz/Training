@@ -16,7 +16,7 @@ bool is_element_close(char* element, char* line)
     if (closeNameLength != elementNameLength) {
         return false;
     }
-    for (int i = 0; i < elementNameLength; i++) {
+    for (int i = 0; i < elementNameLength; ++i) {
         if ((element + 1)[i] != (line + 2)[i]) {
             return false;
         }
@@ -31,7 +31,7 @@ bool element_matches(char* element, char* query)
     if (elementNameLength != queryWordLength) {
         return false;
     }
-    for (int i = 0; i < elementNameLength; i++) {
+    for (int i = 0; i < elementNameLength; ++i) {
         if ((element + 1)[i] != query[i]) {
             return false;
         }
@@ -124,7 +124,7 @@ int hackerrank::attribute_parser()
     }
     
     // print the results
-    for (int i = 0; i < q; i++) {
+    for (int i = 0; i < q; ++i) {
         printf("%s\n", results + i * MAX_LINE_LENGTH);
     }
     return 0;
