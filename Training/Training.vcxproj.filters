@@ -69,6 +69,9 @@
     <ClCompile Include="box_it.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inherited_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -120,6 +123,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="box_it.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inherited_code.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -126,6 +126,7 @@
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="hello.cpp" />
+    <ClCompile Include="inherited_code.cpp" />
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="for_loop.cpp" />
     <ClCompile Include="overload_operators.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="for_loop.h" />
     <ClInclude Include="functions.h" />
     <ClInclude Include="hello.h" />
+    <ClInclude Include="inherited_code.h" />
     <ClInclude Include="input_output.h" />
     <ClInclude Include="overload_operators.h" />
     <ClInclude Include="pointers.h" />
