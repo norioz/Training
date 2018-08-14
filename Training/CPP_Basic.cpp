@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "inherited_code.h"
+#include "exceptional_server.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::inherited_code();
+    result = hackerrank::exceptional_server();
     
     system("pause");
     return result;
