@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "exceptional_server.h"
+#include "virtual_functions.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::exceptional_server();
+    result = hackerrank::virtual_functions();
     
     system("pause");
     return result;

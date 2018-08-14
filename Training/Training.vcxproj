@@ -136,6 +136,7 @@
     <ClCompile Include="stringstream.cpp" />
     <ClCompile Include="structs.cpp" />
     <ClCompile Include="variable_size_arrays.cpp" />
+    <ClCompile Include="virtual_functions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrays_intro.h" />
@@ -157,6 +158,7 @@
     <ClInclude Include="stringstream.h" />
     <ClInclude Include="structs.h" />
     <ClInclude Include="variable_size_arrays.h" />
+    <ClInclude Include="virtual_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
