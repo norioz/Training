@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "virtual_functions.h"
+#include "stl_vector_sort.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::virtual_functions();
+    result = hackerrank::stl_vector_sort();
     
     system("pause");
     return result;
