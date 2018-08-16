@@ -90,6 +90,9 @@
     <ClCompile Include="stl_sets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stl_maps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -162,6 +165,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stl_sets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_maps.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

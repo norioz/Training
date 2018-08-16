@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "stl_sets.h"
+#include "stl_maps.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::stl_sets();
+    result = hackerrank::stl_maps();
     
     system("pause");
     return result;
