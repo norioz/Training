@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "stl_lower_bound.h"
+#include "stl_sets.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::stl_lower_bound();
+    result = hackerrank::stl_sets();
     
     system("pause");
     return result;
