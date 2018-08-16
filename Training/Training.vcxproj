@@ -132,6 +132,7 @@
     <ClCompile Include="overload_operators.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="exceptional_server.cpp" />
+    <ClCompile Include="stl_vector_erase.cpp" />
     <ClCompile Include="stl_vector_sort.cpp" />
     <ClCompile Include="strings.cpp" />
     <ClCompile Include="stringstream.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="input_output.h" />
     <ClInclude Include="overload_operators.h" />
     <ClInclude Include="pointers.h" />
+    <ClInclude Include="stl_vector_erase.h" />
     <ClInclude Include="stl_vector_sort.h" />
     <ClInclude Include="strings.h" />
     <ClInclude Include="stringstream.h" />

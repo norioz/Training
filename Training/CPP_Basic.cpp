@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "stl_vector_sort.h"
+#include "stl_vector_erase.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::stl_vector_sort();
+    result = hackerrank::stl_vector_erase();
     
     system("pause");
     return result;
