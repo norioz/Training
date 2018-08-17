@@ -96,6 +96,9 @@
     <ClCompile Include="print_pretty.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -174,6 +177,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="print_pretty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

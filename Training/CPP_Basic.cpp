@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "print_pretty.h"
+#include "inheritance.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::print_pretty();
+    result = hackerrank::inheritance();
     
     system("pause");
     return result;
