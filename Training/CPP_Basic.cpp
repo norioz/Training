@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "stl_maps.h"
+#include "print_pretty.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::stl_maps();
+    result = hackerrank::print_pretty();
     
     system("pause");
     return result;
