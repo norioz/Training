@@ -130,6 +130,7 @@
     <ClCompile Include="inherited_code.cpp" />
     <ClCompile Include="input_output.cpp" />
     <ClCompile Include="for_loop.cpp" />
+    <ClCompile Include="multi_inheritance.cpp" />
     <ClCompile Include="overload_operators.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="exceptional_server.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="inheritance.h" />
     <ClInclude Include="inherited_code.h" />
     <ClInclude Include="input_output.h" />
+    <ClInclude Include="multi_inheritance.h" />
     <ClInclude Include="overload_operators.h" />
     <ClInclude Include="pointers.h" />
     <ClInclude Include="print_pretty.h" />
