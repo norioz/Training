@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "inheritance.h"
+#include "rectangle_area.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main()
 {
     int result = 1;
 
-    result = hackerrank::inheritance();
+    result = hackerrank::rectangle_area();
     
     system("pause");
     return result;
