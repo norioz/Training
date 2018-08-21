@@ -14,7 +14,7 @@ private:
 
 public:
 	BadLengthException (int n) {
-		itoa(n, m_n, 10);
+		_itoa_s(n, m_n, 16, 10);
 	}
 
 	virtual const char * what () const throw () override {
