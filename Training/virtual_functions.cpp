@@ -7,7 +7,7 @@ using namespace std;
 class Person {
 protected:
 	string m_name; /// Es-Note: String is an object that default initializes.
-	int	   m_age  = -1;
+	int    m_age  = -1;
 
 public:
 	/// Es-Note: Hackerrank is gross. Get/Put here is mixed/non-idiomatic
