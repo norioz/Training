@@ -10,7 +10,7 @@ class BadLengthException : public exception {
 private:
 	///Es-Notes: Exceptions probably shouldn't perform heap allocations,
 	///Though I don't really know- I'd just recommend against it.
-	char m_n[16];
+	char m_n[16] = "";
 
 public:
 	BadLengthException (int n) {
