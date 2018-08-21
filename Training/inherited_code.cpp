@@ -8,15 +8,17 @@ using namespace std;
 
 class BadLengthException : public exception {
 private:
-	string m_n;
+	///Es-Notes: Exceptions probably shouldn't perform heap allocations,
+	///Though I don't really know- I'd just recommend against it.
+	char m_n[16];
 
 public:
 	BadLengthException (int n) {
-		m_n = to_string(n);
+		itoa(n, m_n, 10);
 	}
 
 	virtual const char * what () const throw () override {
-		return m_n.c_str();
+		return m_n;
 	}
 };
 
