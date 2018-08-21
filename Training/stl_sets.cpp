@@ -13,6 +13,7 @@ int hackerrank::stl_sets()
     for (int i = 0; i < q; ++i) {
         int y = -1, x = -1;
         cin >> y >> x;
+        
         switch (y) {
         case 1:              // add x to the set
             s.insert(x);
@@ -22,8 +23,7 @@ int hackerrank::stl_sets()
             break;
         case 3:              // find x in the set
             set<int>::iterator itr = s.find(x);
-            (itr == s.end()) ? cout << "No" : cout << "Yes";
-            cout << endl;
+            cout << (itr == s.end() ? "No" : "Yes") << endl;
             break;
         }
     }
