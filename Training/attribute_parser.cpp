@@ -3,6 +3,7 @@
 #include <sstream>
 #include <vector>
 #include "attribute_parser.h"
+#define END_NODE_TAG "END"
 
 using namespace std;
 
@@ -12,14 +13,19 @@ struct Node {
     vector<string> values;
 };
 
+// Creates a Node from a HRML line.
+// Open element lines result in Nodes with appropriate tags
+// and attributes.
+// Close element lines result in Nodes with the tag "END" and
+// empty attribute and element vectors.
 Node line_to_node(string& s)
 {
     Node result;
 
     // If the string starts with "</" then
     // create and end element Node.
-    if (s[2] == '/') {
-        result.tag = "END";
+    if (s[1] == '/') {
+        result.tag = END_NODE_TAG;
         return result;
     }
 
@@ -32,7 +38,7 @@ Node line_to_node(string& s)
     ss >> tmp_str;
     if (tmp_str[tmp_str.size() - 1] == '>') { // the element has no attributes
         endFound = true;                      // <tag>
-        result.tag = tmp_str.substr(1, tmp_str.size() - 1);
+        result.tag = tmp_str.substr(1, tmp_str.size() - 2);
     }
     else {
         result.tag = tmp_str.substr(1, tmp_str.size());
@@ -64,6 +70,8 @@ Node line_to_node(string& s)
 
 int hackerrank::attribute_parser()
 {
+    // Process the line number descriptors.
+
     int n = -1, // the number of HRML lines
         q = -1; // the number of query lines
     string line = "UNSET";
@@ -71,6 +79,7 @@ int hackerrank::attribute_parser()
     stringstream ss(line);
     ss >> n >> q;
 
+    // Create nodes out of the HRML lines.
     vector<Node> nodes;
     vector<int> endIdxs;
 
@@ -80,7 +89,7 @@ int hackerrank::attribute_parser()
         Node n = line_to_node(line);
         nodes.push_back(n);
         endIdxs.push_back(-1);
-        if (n.tag == "END") {
+        if (n.tag == END_NODE_TAG) {
             endIdxs[startIdxStack[startIdxStack.size() - 1]] = i;
             startIdxStack.pop_back();
         }
@@ -89,6 +98,7 @@ int hackerrank::attribute_parser()
         }
     }
 
+    // Process the queries.
     for (int i = 0; i < q; ++i) {
         string query = "UNSET";
         getline(cin, query);
@@ -113,7 +123,7 @@ int hackerrank::attribute_parser()
         int tagIdx = 0;
         while (nodeIdx < nodes.size()) {
             Node currentNode = nodes[nodeIdx];
-            if (currentNode.tag == "END") {   // A query can't step up levels so
+            if (currentNode.tag == END_NODE_TAG) {   // A query can't step up levels so
                 cout << "Not Found!" << endl; // finding an end node fails the query.
                 break;
             }
@@ -139,6 +149,9 @@ int hackerrank::attribute_parser()
             }
             else {  // Move beyond the current element's end and try to match.
                 nodeIdx = endIdxs[nodeIdx] + 1;
+                if (nodeIdx == nodes.size()) {
+                    cout << "Not Found!" << endl;
+                }
             }
         }
     }
