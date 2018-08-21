@@ -8,16 +8,16 @@ using namespace std;
 
 class BadLengthException : public exception {
 private:
-    string m_n = "UNSET";
+	string m_n;
+
 public:
-    BadLengthException(int n)
-    {
-        m_n = to_string(n);
-    }
-    virtual const char* what() const throw()
-    {
-        return m_n.c_str();
-    }
+	BadLengthException (int n) {
+		m_n = to_string(n);
+	}
+
+	virtual const char * what () const throw () override {
+		return m_n.c_str();
+	}
 };
 
 // START HACKERRANK BOILERPLATE
