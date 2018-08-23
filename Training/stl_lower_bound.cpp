@@ -30,10 +30,12 @@ int hackerrank::stl_lower_bound ()
     for (int i = 0; i < q; ++i) {
         int x = -1;  // the query value
         cin >> x;
+
         vector<int>::iterator low = lower_bound(v.begin(), v.end(), x);
         int idx = low - v.begin();
-        (v[idx] == x) ? cout << "Yes " : cout << "No ";
-        cout << (idx + 1) << endl;
+        cout << (v[idx] == x ? "Yes " : "No ")
+            << (low - v.begin() + 1)
+            << endl;
     }
     return 0;
 }

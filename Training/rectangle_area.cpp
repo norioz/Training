@@ -5,8 +5,8 @@ using namespace std;
 
 class Rectangle {
 protected:
-    int m_width = -1,
-        m_height = -1;
+    int m_width = -1;
+    int m_height = -1;
 public:
     virtual void display ()
     {
