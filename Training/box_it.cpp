@@ -22,19 +22,21 @@ public:
 // A.l < B.l
 // A.b < B.b and A.l == B.l
 // A.h < B.h and A.b == B.b and A.l == B.l
-bool operator< (Box& b1, Box& b2)
+bool operator< (const Box & a, const Box & b)
 {
-    int b1l = b1.getLength(), b2l = b2.getLength(),
-        b1b = b1.getBreadth(), b2b = b2.getBreadth(),
-        b1h = b1.getHeight(), b2h = b2.getHeight();
-    return b1l < b2l || (b1l == b2l && (b1b < b2b || (b1b == b2b && b1h < b2h)));
+    int al = a.getLength(), bl = b.getLength(),
+        ab = a.getBreadth(), bb = b.getBreadth(),
+        ah = a.getHeight(), bh = b.getHeight();
+    return al < bl
+        || al == bl && ab < bb
+        || al == bl && ab == bb && ah < bh;
 }
 
 // Overload operator << for the class Box().
 // If B is an object of class Box :
 // cout << B should print B.l, B.b, and B.h on a single line separated by
 // spaces.
-ostream& operator<< (ostream& os, Box& b)
+ostream & operator<< (ostream & os, Box & b)
 {
     os << b.getLength() << " " << b.getBreadth() << " " << b.getHeight();
     return os;
