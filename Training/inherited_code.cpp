@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -8,15 +10,15 @@ using namespace std;
 
 class BadLengthException : public exception {
 private:
-    string m_n = "UNSET";
+    char m_n[16] = "";
 public:
     BadLengthException (int n)
     {
-        m_n = to_string(n);
+        sprintf(m_n, "%d", n);
     }
-    virtual const char* what() const throw()
+    virtual const char * what () const throw () override
     {
-        return m_n.c_str();
+        return m_n;
     }
 };
 

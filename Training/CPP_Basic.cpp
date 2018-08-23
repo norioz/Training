@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "attribute_parser.h"
+#include "inherited_code.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main ()
 {
     int result = 1;
 
-    result = hackerrank::attribute_parser();
+    result = hackerrank::inherited_code();
     
     system("pause");
     return result;
