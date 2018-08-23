@@ -20,6 +20,6 @@
 
 namespace hackerrank {
 
-int stl_sets();
+int stl_sets ();
 
 }

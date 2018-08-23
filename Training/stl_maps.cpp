@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int hackerrank::stl_maps()
+int hackerrank::stl_maps ()
 {
     int q = -1; // the number of queries
     cin >> q;

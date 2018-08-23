@@ -18,6 +18,6 @@
 
 namespace hackerrank {
 
-int strings();
+int strings ();
 
 }

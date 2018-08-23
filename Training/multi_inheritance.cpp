@@ -21,7 +21,7 @@ public:
 
 class Equilateral : public Isosceles {
 public:
-    void equilateral()
+    void equilateral ()
     {
         cout << "I am an equilateral triangle\n";
     }

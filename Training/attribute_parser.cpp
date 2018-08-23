@@ -18,7 +18,7 @@ struct Node {
 // and attributes.
 // Close element lines result in Nodes with the tag "END" and
 // empty attribute and element vectors.
-Node line_to_node(string& s)
+Node line_to_node (string& s)
 {
     Node result;
 
@@ -68,7 +68,7 @@ Node line_to_node(string& s)
     return result;
 }
 
-int hackerrank::attribute_parser()
+int hackerrank::attribute_parser ()
 {
     // Process the line number descriptors.
 

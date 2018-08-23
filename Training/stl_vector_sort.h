@@ -17,6 +17,6 @@
 
 namespace hackerrank {
 
-int stl_vector_sort();
+int stl_vector_sort ();
 
 }

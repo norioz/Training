@@ -27,6 +27,6 @@
 
 namespace hackerrank {
 
-int rectangle_area();
+int rectangle_area ();
 
 }

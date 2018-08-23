@@ -2,7 +2,7 @@
 #include <cstdio>
 #include "arrays_intro.h"
 
-int hackerrank::arrays_intro()
+int hackerrank::arrays_intro ()
 {
     int n = -1;
     int arr[10000];

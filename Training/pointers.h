@@ -14,6 +14,6 @@
 
 namespace hackerrank {
 
-int pointers();
+int pointers ();
 
 }

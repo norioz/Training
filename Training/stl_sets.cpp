@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int hackerrank::stl_sets()
+int hackerrank::stl_sets ()
 {
     int q = -1;  // the number of queries
     cin >> q;

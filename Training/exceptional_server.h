@@ -40,6 +40,6 @@
 
 namespace hackerrank {
 
-int exceptional_server();
+int exceptional_server ();
 
 }

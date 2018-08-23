@@ -24,6 +24,6 @@
 
 namespace hackerrank {
     
-int stl_maps();
+int stl_maps ();
 
 }

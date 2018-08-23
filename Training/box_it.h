@@ -28,6 +28,6 @@
 
 namespace hackerrank {
 
-int box_it();
+int box_it ();
 
 }

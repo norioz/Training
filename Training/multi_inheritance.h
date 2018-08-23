@@ -16,6 +16,6 @@
 
 namespace hackerrank {
     
-int multi_inheritance();
+int multi_inheritance ();
 
 }

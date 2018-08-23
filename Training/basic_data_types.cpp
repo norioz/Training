@@ -12,7 +12,7 @@
 // Note that the floating point value should be correct up to 3 decimal places
 // and the double to 9 decimal places.
 
-int hackerrank::basic_data_types()
+int hackerrank::basic_data_types ()
 {
     int a = -1;
     long b = -1L;

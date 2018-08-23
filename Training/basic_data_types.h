@@ -13,6 +13,6 @@
 
 namespace hackerrank {
 
-int basic_data_types();
+int basic_data_types ();
 
 }

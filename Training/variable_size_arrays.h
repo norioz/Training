@@ -29,6 +29,6 @@
 
 namespace hackerrank {
 
-int variable_size_arrays();
+int variable_size_arrays ();
 
 }

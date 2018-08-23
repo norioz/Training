@@ -29,6 +29,6 @@
 
 namespace hackerrank {
 
-int print_pretty();
+int print_pretty ();
 
 }

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int hackerrank::print_pretty()
+int hackerrank::print_pretty ()
 {
     // START HACKERRANK GIVEN CODE
     int T; cin >> T;

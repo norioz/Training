@@ -53,6 +53,6 @@
 
 namespace hackerrank {
 
-int virtual_functions();
+int virtual_functions ();
 
 }

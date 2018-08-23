@@ -28,6 +28,6 @@
 
 namespace hackerrank {
 
-int stl_lower_bound();
+int stl_lower_bound ();
 
 }

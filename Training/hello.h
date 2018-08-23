@@ -9,6 +9,6 @@
 
 namespace hackerrank {
 
-int hello();
+int hello ();
 
 }

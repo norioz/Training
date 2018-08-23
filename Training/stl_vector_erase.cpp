@@ -5,7 +5,7 @@
 using namespace std;
 
 // Prints all ins in vector v.
-void print_vector(const vector<int>& v)
+void print_vector (const vector<int>& v)
 {
     if (v.size() > 0) {
         cout << v[0];
@@ -18,7 +18,7 @@ void print_vector(const vector<int>& v)
 
 // Reads n ints into vector v, starting at
 // index 0.
-void read_vector(int n, vector<int>& v)
+void read_vector (int n, vector<int>& v)
 {
     int tmp = -1;
     for (int i = 0; i < n; ++i) {
@@ -26,7 +26,7 @@ void read_vector(int n, vector<int>& v)
         v.push_back(tmp);
     }
 }
-int hackerrank::stl_vector_erase()
+int hackerrank::stl_vector_erase ()
 {
     int n = -1;  // number of ints to read
     cin >> n;

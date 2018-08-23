@@ -13,6 +13,6 @@
 
 namespace hackerrank {
 
-int conditionals();
+int conditionals ();
 
 }

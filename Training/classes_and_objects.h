@@ -26,6 +26,6 @@
 
 namespace hackerrank {
 
-int classes_and_objects();
+int classes_and_objects ();
 
 }

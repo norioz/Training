@@ -3,7 +3,7 @@
 #include <vector>
 #include "variable_size_arrays.h"
 
-int hackerrank::variable_size_arrays()
+int hackerrank::variable_size_arrays ()
 {
     // parse line 1 -- n (number of arrays), q (number of queries)
     int n = -1, q = -1;

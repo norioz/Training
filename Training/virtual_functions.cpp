@@ -9,8 +9,8 @@ protected:
     string m_name = "UNSET";
     int m_age = -1;
 public:
-    virtual void getdata() = 0;
-    virtual void putdata() = 0;
+    virtual void getdata () = 0;
+    virtual void putdata () = 0;
 };
 
 class Professor : public Person {
@@ -19,15 +19,15 @@ private:
     int m_publications = -1,
         m_cur_id = -1;
 public:
-    Professor()
+    Professor ()
     {
         m_cur_id = s_next_id++;
     }
-    void getdata() 
+    void getdata () 
     {
         cin >> m_name >> m_age >> m_publications;
     }
-    void putdata() 
+    void putdata () 
     {
         cout << m_name << " " << m_age << " " << m_publications << " " << m_cur_id << endl;
     }
@@ -41,18 +41,18 @@ private:
     int m_marks[6] = { -1, -1, -1, -1, -1, -1 };
     int m_cur_id = -1;
 public:
-    Student()
+    Student ()
     {
         m_cur_id = s_next_id++;
     }
-    void getdata()
+    void getdata ()
     {
         cin >> m_name >> m_age;
         for (int i = 0; i < 6; ++i) {
             cin >> m_marks[i];
         }
     }
-    void putdata()
+    void putdata ()
     {
         cout << m_name << " " << m_age;
         int marks_sum = 0;
@@ -65,7 +65,7 @@ public:
 
 int Student::s_next_id = 1;
 
-int hackerrank::virtual_functions()
+int hackerrank::virtual_functions ()
 {
     // START HACKERRANK BOILERPLATE
     int n, val;

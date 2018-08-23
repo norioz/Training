@@ -10,7 +10,7 @@ class BadLengthException : public exception {
 private:
     string m_n = "UNSET";
 public:
-    BadLengthException(int n)
+    BadLengthException (int n)
     {
         m_n = to_string(n);
     }

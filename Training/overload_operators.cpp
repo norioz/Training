@@ -8,7 +8,7 @@ class Complex
 {
 public:
     int a = -1, b = -1;
-    void input(string s)
+    void input (string s)
     {
         int v1 = 0;
         unsigned int i = 0;
@@ -32,7 +32,7 @@ public:
     }
 };
 
-Complex operator+(const Complex& c1, const Complex& c2)
+Complex operator+ (const Complex& c1, const Complex& c2)
 {
     Complex result;
     result.a = c1.a + c2.a;
@@ -40,7 +40,7 @@ Complex operator+(const Complex& c1, const Complex& c2)
     return result;
 }
 
-ostream& operator<<(ostream& os, const Complex& c)
+ostream& operator<< (ostream& os, const Complex& c)
 {
     os << c.a << "+i" << c.b;
     return os;

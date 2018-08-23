@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int hackerrank::strings()
+int hackerrank::strings ()
 {
     string a = "INVALID", b = "INVALID";
     cin >> a >> b;

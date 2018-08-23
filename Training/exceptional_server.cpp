@@ -13,7 +13,7 @@ class Server {
 private:
     static int load;
 public:
-    static int compute(long long A, long long B) {
+    static int compute (long long A, long long B) {
         load += 1;
         if (A < 0) {
             throw std::invalid_argument("A is negative");
@@ -31,7 +31,7 @@ public:
 };
 int Server::load = 0;
 
-int hackerrank::exceptional_server()
+int hackerrank::exceptional_server ()
 {
     int T; cin >> T;
     while (T--) {

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int hackerrank::stl_vector_sort()
+int hackerrank::stl_vector_sort ()
 {
     int n = -1;
     cin >> n;

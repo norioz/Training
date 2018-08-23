@@ -22,7 +22,7 @@ public:
     }
 };
 
-int hackerrank::classes_and_objects() {
+int hackerrank::classes_and_objects () {
     int n = -1; // number of students
     cin >> n;
     Student *s = new Student[n]; // an array of n students

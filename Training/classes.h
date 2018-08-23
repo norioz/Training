@@ -30,6 +30,6 @@
 
 namespace hackerrank {
 
-int classes();
+int classes ();
 
 }

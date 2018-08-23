@@ -28,6 +28,6 @@
 
 namespace hackerrank {
 
-int inherited_code();
+int inherited_code ();
 
 }

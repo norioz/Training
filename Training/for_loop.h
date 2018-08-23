@@ -14,6 +14,6 @@
 
 namespace hackerrank {
 
-int for_loop();
+int for_loop ();
 
 }

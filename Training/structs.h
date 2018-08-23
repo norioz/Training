@@ -21,6 +21,6 @@
 
 namespace hackerrank {
 
-int structs();
+int structs ();
 
 }

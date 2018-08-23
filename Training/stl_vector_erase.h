@@ -36,6 +36,6 @@
 
 namespace hackerrank {
     
-int stl_vector_erase();
+int stl_vector_erase ();
 
 }

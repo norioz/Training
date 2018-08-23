@@ -32,6 +32,6 @@
 
 namespace hackerrank {
 
-int attribute_parser();
+int attribute_parser ();
 
 }

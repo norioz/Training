@@ -20,6 +20,6 @@
 
 namespace hackerrank {
 
-int overload_operators();
+int overload_operators ();
 
 }

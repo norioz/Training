@@ -10,6 +10,6 @@
 
 namespace hackerrank {
 
-int input_output();
+int input_output ();
 
 }

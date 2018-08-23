@@ -1,7 +1,7 @@
 #include <iostream>
 #include "for_loop.h"
 
-int hackerrank::for_loop()
+int hackerrank::for_loop ()
 {
     const char * const digit_names[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     int a = -1, b = -1;

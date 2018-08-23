@@ -11,22 +11,22 @@ private:
     string m_first_name = "INVALID";
     string m_last_name = "INVALID";
 public:
-    void set_age(int age) { m_age = age; }
-    int get_age() { return m_age; }
-    void set_standard(int standard) { m_standard = standard; }
-    int get_standard() { return m_standard; }
-    void set_first_name(string first_name) { m_first_name = first_name; }
-    string get_first_name() { return m_first_name; }
-    void set_last_name(string last_name) { m_last_name = last_name; }
-    string get_last_name() { return m_last_name; }
-    string to_string() {
+    void set_age (int age) { m_age = age; }
+    int get_age () { return m_age; }
+    void set_standard (int standard) { m_standard = standard; }
+    int get_standard () { return m_standard; }
+    void set_first_name (string first_name) { m_first_name = first_name; }
+    string get_first_name () { return m_first_name; }
+    void set_last_name (string last_name) { m_last_name = last_name; }
+    string get_last_name () { return m_last_name; }
+    string to_string () {
         stringstream ss;
         ss << m_age << "," << m_first_name << "," << m_last_name << "," << m_standard;
         return ss.str();
     }
 };
 
-int hackerrank::classes()
+int hackerrank::classes ()
 {
     int age, standard;
     string first_name, last_name;

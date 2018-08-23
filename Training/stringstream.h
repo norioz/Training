@@ -11,6 +11,6 @@
 
 namespace hackerrank {
 
-int stringstream();
+int stringstream ();
 
 }

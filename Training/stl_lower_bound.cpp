@@ -6,7 +6,7 @@
 using namespace std;
 
 // Read N ints into vector v.
-void read_array(vector<int>& v, int n)
+void read_array (vector<int>& v, int n)
 {
     int tmp = -1;
     for (int i = 0; i < n; ++i) {
@@ -15,7 +15,7 @@ void read_array(vector<int>& v, int n)
     }
 }
 
-int hackerrank::stl_lower_bound()
+int hackerrank::stl_lower_bound ()
 {
     int n = -1; // the number of elements
     cin >> n;

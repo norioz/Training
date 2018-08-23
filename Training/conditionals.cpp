@@ -1,7 +1,7 @@
 #include <iostream>
 #include "conditionals.h"
 
-int hackerrank::conditionals()
+int hackerrank::conditionals ()
 {
     int n = -1;
     std::cin >> n;

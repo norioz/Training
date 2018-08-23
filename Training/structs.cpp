@@ -10,7 +10,7 @@ struct Student {
     string last_name = "INVALID";
 };
 
-int hackerrank::structs()
+int hackerrank::structs ()
 {
     Student st;
 

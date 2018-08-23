@@ -19,6 +19,6 @@
 
 namespace hackerrank {
 
-int arrays_intro();
+int arrays_intro ();
 
 }

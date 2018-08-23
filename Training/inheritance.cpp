@@ -17,13 +17,13 @@ public:
         cout << "I am an isosceles triangle\n";
     }
 // END HACKERRANK GIVEN CODE
-    void description()
+    void description ()
     {
         cout << "In an isosceles triangle two sides are equal" << endl;
     }
 };
 
-int hackerrank::inheritance() 
+int hackerrank::inheritance () 
 {
     // START HACKERRANK GIVEN CODE
     Isosceles isc;

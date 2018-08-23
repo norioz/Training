@@ -8,7 +8,7 @@ protected:
     int m_width = -1,
         m_height = -1;
 public:
-    virtual void display()
+    virtual void display ()
     {
         cout << m_width << " " << m_height << endl;
     }
@@ -16,7 +16,7 @@ public:
 
 class RectangleArea : public Rectangle {
 public:
-    void read_input()
+    void read_input ()
     {
         cin >> m_width >> m_height;
     }
@@ -26,7 +26,7 @@ public:
     }
 };
 
-int hackerrank::rectangle_area()
+int hackerrank::rectangle_area ()
 {
     // START HACKERRANK GIVEN CODE
 

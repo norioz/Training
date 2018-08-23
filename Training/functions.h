@@ -12,6 +12,6 @@
 
 namespace hackerrank {
 
-int functions();
+int functions ();
 
 }

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-vector<int> parseInts(string str)
+vector<int> parseInts (string str)
 {
     stringstream ss(str);
     vector<int> result;
@@ -19,7 +19,7 @@ vector<int> parseInts(string str)
     return result;
 }
 
-int hackerrank::stringstream()
+int hackerrank::stringstream ()
 {
     string str = "INVALID";
     cin >> str;
