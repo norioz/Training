@@ -136,6 +136,7 @@
     <ClCompile Include="exceptional_server.cpp" />
     <ClCompile Include="print_pretty.cpp" />
     <ClCompile Include="rectangle_area.cpp" />
+    <ClCompile Include="stl_deque.cpp" />
     <ClCompile Include="stl_lower_bound.cpp" />
     <ClCompile Include="stl_maps.cpp" />
     <ClCompile Include="stl_sets.cpp" />
@@ -167,6 +168,7 @@
     <ClInclude Include="pointers.h" />
     <ClInclude Include="print_pretty.h" />
     <ClInclude Include="rectangle_area.h" />
+    <ClInclude Include="stl_deque.h" />
     <ClInclude Include="stl_lower_bound.h" />
     <ClInclude Include="stl_maps.h" />
     <ClInclude Include="stl_sets.h" />
