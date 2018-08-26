@@ -108,6 +108,9 @@
     <ClCompile Include="stl_deque.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="class_templates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -198,6 +201,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stl_deque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class_templates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

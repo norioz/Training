@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "stl_deque.h"
+#include "class_templates.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main ()
 {
     int result = 1;
 
-    result = hackerrank::stl_deque();
+    result = hackerrank::class_templates();
     
     system("pause");
     return result;

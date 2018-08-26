@@ -122,6 +122,7 @@
     <ClCompile Include="box_it.cpp" />
     <ClCompile Include="classes.cpp" />
     <ClCompile Include="classes_and_objects.cpp" />
+    <ClCompile Include="class_templates.cpp" />
     <ClCompile Include="conditionals.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="functions.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="box_it.h" />
     <ClInclude Include="classes.h" />
     <ClInclude Include="classes_and_objects.h" />
+    <ClInclude Include="class_templates.h" />
     <ClInclude Include="conditionals.h" />
     <ClInclude Include="exceptional_server.h" />
     <ClInclude Include="for_loop.h" />
