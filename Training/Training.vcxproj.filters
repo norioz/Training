@@ -120,6 +120,9 @@
     <ClCompile Include="overload_ostream_operator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="messages_order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -222,6 +225,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="overload_ostream_operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="messages_order.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
