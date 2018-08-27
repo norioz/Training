@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "preprocessor.h"
+#include "hotel_prices.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main ()
 {
     int result = 1;
 
-    result = hackerrank::preprocessor();
+    result = hackerrank::hotel_prices();
     
     system("pause");
     return result;

@@ -127,6 +127,7 @@
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="hello.cpp" />
+    <ClCompile Include="hotel_prices.cpp" />
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="inherited_code.cpp" />
     <ClCompile Include="input_output.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="for_loop.h" />
     <ClInclude Include="functions.h" />
     <ClInclude Include="hello.h" />
+    <ClInclude Include="hotel_prices.h" />
     <ClInclude Include="inheritance.h" />
     <ClInclude Include="inherited_code.h" />
     <ClInclude Include="input_output.h" />

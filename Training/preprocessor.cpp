@@ -5,7 +5,7 @@
 
 #define INF numeric_limits<int>::max()
 #define toStr(r) #r
-#define foreach(v, i) for(int i = 0; i < v.size(); ++i)
+#define foreach(v, i) for(unsigned int i = 0; i < v.size(); ++i)
 #define io(v) cin >> v
 #define minimum(e, v) e = (e < v) ? e : v;
 #define maximum(e, v) e = (e > v) ? e : v;
