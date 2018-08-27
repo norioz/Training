@@ -135,6 +135,7 @@
     <ClCompile Include="overload_operators.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="exceptional_server.cpp" />
+    <ClCompile Include="preprocessor.cpp" />
     <ClCompile Include="print_pretty.cpp" />
     <ClCompile Include="rectangle_area.cpp" />
     <ClCompile Include="stl_deque.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="multi_inheritance.h" />
     <ClInclude Include="overload_operators.h" />
     <ClInclude Include="pointers.h" />
+    <ClInclude Include="preprocessor.h" />
     <ClInclude Include="print_pretty.h" />
     <ClInclude Include="rectangle_area.h" />
     <ClInclude Include="stl_deque.h" />
