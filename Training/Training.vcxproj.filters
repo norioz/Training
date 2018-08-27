@@ -117,6 +117,9 @@
     <ClCompile Include="hotel_prices.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="overload_ostream_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -216,6 +219,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="hotel_prices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overload_ostream_operator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

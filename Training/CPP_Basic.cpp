@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "hotel_prices.h"
+#include "overload_ostream_operator.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main ()
 {
     int result = 1;
 
-    result = hackerrank::hotel_prices();
+    result = hackerrank::overload_ostream();
     
     system("pause");
     return result;
