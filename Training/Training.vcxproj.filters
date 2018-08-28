@@ -123,6 +123,9 @@
     <ClCompile Include="messages_order.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exception_handling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -228,6 +231,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="messages_order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exception_handling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

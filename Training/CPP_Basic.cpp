@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "messages_order.h"
+#include "exception_handling.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main ()
 {
     int result = 1;
 
-    result = hackerrank::messages_order();
+    result = hackerrank::exception_handling();
     
     system("pause");
     return result;

@@ -125,6 +125,7 @@
     <ClCompile Include="class_templates.cpp" />
     <ClCompile Include="conditionals.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
+    <ClCompile Include="exception_handling.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="hotel_prices.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="classes_and_objects.h" />
     <ClInclude Include="class_templates.h" />
     <ClInclude Include="conditionals.h" />
+    <ClInclude Include="exception_handling.h" />
     <ClInclude Include="exceptional_server.h" />
     <ClInclude Include="for_loop.h" />
     <ClInclude Include="functions.h" />
