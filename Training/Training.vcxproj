@@ -116,6 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="accessing_inherited_functions.cpp" />
     <ClCompile Include="arrays_intro.cpp" />
     <ClCompile Include="attribute_parser.cpp" />
     <ClCompile Include="basic_data_types.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="virtual_functions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="accessing_inherited_functions.h" />
     <ClInclude Include="arrays_intro.h" />
     <ClInclude Include="attribute_parser.h" />
     <ClInclude Include="basic_data_types.h" />

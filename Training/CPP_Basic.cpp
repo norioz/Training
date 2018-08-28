@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "exception_handling.h"
+#include "accessing_inherited_functions.h"
 
 // The entry point for the CPP_Basic project.
 // The main function here works as a driver that executes
@@ -10,7 +10,7 @@ int main ()
 {
     int result = 1;
 
-    result = hackerrank::exception_handling();
+    result = hackerrank::accessing_inherited();
     
     system("pause");
     return result;

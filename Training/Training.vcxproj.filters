@@ -126,6 +126,9 @@
     <ClCompile Include="exception_handling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="accessing_inherited_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -234,6 +237,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="exception_handling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="accessing_inherited_functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
