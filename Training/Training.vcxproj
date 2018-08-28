@@ -136,6 +136,7 @@
     <ClCompile Include="for_loop.cpp" />
     <ClCompile Include="messages_order.cpp" />
     <ClCompile Include="multi_inheritance.cpp" />
+    <ClCompile Include="operator_overloading.cpp" />
     <ClCompile Include="overload_operators.cpp" />
     <ClCompile Include="overload_ostream_operator.cpp" />
     <ClCompile Include="pointers.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="input_output.h" />
     <ClInclude Include="messages_order.h" />
     <ClInclude Include="multi_inheritance.h" />
+    <ClInclude Include="operator_overloading.h" />
     <ClInclude Include="overload_operators.h" />
     <ClInclude Include="overload_ostream_operator.h" />
     <ClInclude Include="pointers.h" />
