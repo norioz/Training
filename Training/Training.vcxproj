@@ -153,6 +153,7 @@
     <ClCompile Include="strings.cpp" />
     <ClCompile Include="stringstream.cpp" />
     <ClCompile Include="structs.cpp" />
+    <ClCompile Include="template_specialization.cpp" />
     <ClCompile Include="variable_size_arrays.cpp" />
     <ClCompile Include="virtual_functions.cpp" />
   </ItemGroup>
@@ -193,6 +194,7 @@
     <ClInclude Include="strings.h" />
     <ClInclude Include="stringstream.h" />
     <ClInclude Include="structs.h" />
+    <ClInclude Include="template_specialization.h" />
     <ClInclude Include="variable_size_arrays.h" />
     <ClInclude Include="virtual_functions.h" />
   </ItemGroup>
