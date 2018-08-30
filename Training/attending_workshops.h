@@ -27,9 +27,6 @@
 // without overlap. The next workshop cannot be attended until the
 // previous workshop ends.
 //
-// Note: An array of unknown size (n) should be declared as follows:
-// DataType* arrayName = new DataType[n];
-//
 // Input
 // Input from stdin is handled by the locked code in the editor; you
 // simply need to write your functions to meet the specifications

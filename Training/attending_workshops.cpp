@@ -11,6 +11,9 @@ struct Workshop {
     int durration = -1;
 };
 
+// Make a comparator function for Workshops so that
+// they can be sorted. Compare by end time so that
+// elimination by overlap can be greedy.
 bool compare(Workshop & a, Workshop & b)
 {
     return a.end_time < b.end_time;
@@ -19,16 +22,16 @@ bool compare(Workshop & a, Workshop & b)
 struct Available_Workshops {
     int n = -1;
     vector<Workshop> workshops;
-    // Workshop * workshops = NULL;
-    // Available_Workshops(int num) : workshops(num), n(num) {}
+    Available_Workshops(int num) : n(num) {
+        workshops.reserve(num);
+    }
 };
 
 Available_Workshops * initialize (int start_time[], int duration[], int n)
 {
-    // Workshop * workshops = new Workshop[n];
-    Available_Workshops * result = new Available_Workshops;
+    Available_Workshops * result = new Available_Workshops(n);
 
-    //vector<Workshop> workshops;
+    // create Workshops from start times and durations
     for (int i = 0; i < n; ++i) {
         Workshop w;
         w.start_time = start_time[i];
@@ -37,16 +40,15 @@ Available_Workshops * initialize (int start_time[], int duration[], int n)
         result->workshops.push_back(w);
     }
 
-    // sort them by their start time
-    sort(result->workshops.begin(), result->workshops.end());
+    // sort Workshops by their end times
+    sort(result->workshops.begin(), result->workshops.end(), compare);
     
-    // Available_Workshops * result = new Available_Workshops;
-    // result->n = n;
-    // result->workshops = &workshops[0];
-
     return result;
 }
 
+// Greedy algorithm for calculating the number of workshops that
+// can be attended. Find overlaps in last end time and current start
+// time and throw away the overlaps. 
 int CalculateMaxWorkshops (Available_Workshops * ptr)
 {
     int endTime = 0;
@@ -63,6 +65,7 @@ int CalculateMaxWorkshops (Available_Workshops * ptr)
 
 int hackerrank::attending_workshops ()
 {
+    // START HACKERRANK LOCKED CODE
     int n; // number of workshops
     cin >> n;
     // create arrays of unknown size n
@@ -80,4 +83,5 @@ int hackerrank::attending_workshops ()
     ptr = initialize(start_time, duration, n);
     cout << CalculateMaxWorkshops(ptr) << endl;
     return 0;
+    // END HACKERRANK LOCKED CODE
 }
