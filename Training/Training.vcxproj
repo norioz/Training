@@ -116,6 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="abstract_classes.cpp" />
     <ClCompile Include="accessing_inherited_functions.cpp" />
     <ClCompile Include="arrays_intro.cpp" />
     <ClCompile Include="attending_workshops.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="virtual_functions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="abstract_classes.h" />
     <ClInclude Include="accessing_inherited_functions.h" />
     <ClInclude Include="arrays_intro.h" />
     <ClInclude Include="attending_workshops.h" />
