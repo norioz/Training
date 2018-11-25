@@ -138,6 +138,9 @@
     <ClCompile Include="attending_workshops.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="abstract_classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -258,6 +261,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="attending_workshops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_classes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
