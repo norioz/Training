@@ -6,7 +6,6 @@ window.onload = function () {
 	}
 }
 
-
 function sayHello() {
 	var messageDialog = new Windows.UI.Popups.MessageDialog("Hello, world!", "Alert");
 	messageDialog.showAsync();
