@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script>
+  // "Dutch flag" partitioning of an array.
+  // Given an array of numbers and two thresholds (lo, hi), partition the array
+  // into sections such that, for all values v
+  //  section 0 is v < lo
+  //  section 1 is v >= lo && v < hi
+  //  section 2 is v >= hi
+  //
+  // CONSTRAINT : the array must be mutated in place. No new arrays can be created.
+  var arr0 = [60, -1, 0, 5, 10, 20], lo0 = 5, hi0 = 20, // [-1, 0, 5, 10, 20, 60]
+    arr1 = [], lo1 = 5, hi1 = 20, // []
+    arr2 = [1], lo2 = 5, hi2 = 20, // [1]
+    arr3 = [5,4,2,3,1], lo3 = 10, hi3 = 50
+    arr4 = [7,7,4,4,7,7,1,1,7,7], lo4 = 3, hi4 = 6;
+  var partition = function(arr, lo, hi) {
+    var i = 0, loIdx = 0, hiIdx = arr.length - 1;
+    while (i <= hiIdx) {
+      var v = arr[i];
+      if (v >= hi) {
+        swap(arr, i, hiIdx);
+        hiIdx--;
+      } else if (v < lo) {
+        swap(arr, loIdx, i);
+        loIdx++;
+        i++;
+      } else {
+        i++;
+      }
+    }
+    return [loIdx, hiIdx + 1];
+  }
+
+  // Mutates arr such that the value at indexes i and j have traded places.
+  var swap = function(arr, i, j) {
+    var t = arr[i];
+    arr[i] = arr[j];
+    arr[j] = t;
+  }
+
+  var a = partition(arr0, lo0, hi0);
+  console.log(arr0, a);
+  a = partition(arr1, lo1, hi1);
+  console.log(arr1, a);
+  a = partition(arr2, lo2, hi2);
+  console.log(arr2, a);
+  a = partition(arr3, lo3, hi3);
+  console.log(arr3, a);
+  a = partition(arr4, lo4, hi4);
+  console.log(arr4, a);
+  </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script>
+    var arr0 = [-100, 0, 1, 6, 10, 50], t0 = 6, // 3
+        arr1 = [-100, 0, 1, 10, 50], t1 = 6,    // -1
+        arr2 = [-100, 0, 10, 50], t2 = 6,       // -1
+        arr3 = [-100, 0, 6, 50], t3 = 6,        // 2
+        arr4 = [], t4 = 6,                      // -1
+        arr5 = [5], t5 = 6,                     // -1
+        arr6 = [6], t6 = 6;                     // 0
+        
+    var indexOf = function(arr, target) {
+        if (arr.legnth === 0) {
+            return -1;
+        }
+        return binSearch(arr, target, 0, arr.length);
+    }
+    
+    // @arr -- the whole array, some elements might be outside of the bounds
+    // @endIdx -- one beyond the end of the partition
+    var binSearch = function(arr, target, startIdx, endIdx) {
+        var numElements = endIdx - startIdx;
+        if (numElements === 0) {
+            return -1;
+        }
+        if (numElements === 1) {
+            return (arr[startIdx] === target) ? startIdx : -1;
+        }
+        var midIdx = numElements / 2 + startIdx;
+        if (arr[midIdx] === target) {
+            return midIdx;
+        }
+        if (arr[midIdx] > target) {
+            return binSearch(arr, target, midIdx, endIdx);
+        }
+        return binSearch(arr, target, startIdx, midIdx);
+    }
+    
+    console.log(indexOf(arr0, t0));
+    console.log(indexOf(arr1, t1));
+    console.log(indexOf(arr2, t2));
+    console.log(indexOf(arr3, t3));
+    console.log(indexOf(arr4, t4));
+    console.log(indexOf(arr5, t5));
+    console.log(indexOf(arr6, t6));
+    </script>
+</body>
+</html>
+    

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<script>
+// Imagine that we have a very long list of prices for an item.
+// We want to buy the item once and sell the item once and make the most profit.
+// Output is [buy-idx, sell-idx, profit].
+// If no profit can be made, output is [0, 0, 0].
+
+var arr0 = [9,9,3,9,9,100,9,9], // (2, 5, 97) 
+    arr1 = [9,9,9,9,9,9,9,9,9], // no profit
+    arr2 = [10, 9, 8, 7, 6];    // no profit
+    
+var bestBuy = function(pricesArr) {
+    var lowestBuyIdx = 0,
+        currentBuyIdx = 0,
+        currentSellIdx = 0,
+        currentProfit = 0;
+    
+    for (var i = 1; i < pricesArr.length; i++) {
+        var val = pricesArr[i];
+        if (val < pricesArr[lowestBuyIdx]) {
+            lowestBuyIdx = i;
+            continue;
+        }
+        if (val - pricesArr[lowestBuyIdx] > currentProfit) {
+            currentBuyIdx = lowestBuyIdx;
+            currentSellIdx = i;
+            currentProfit = val - pricesArr[lowestBuyIdx];
+        }
+    }
+    
+    if (currentProfit === 0) {
+        return [0, 0, 0];
+    } else {
+        return [currentBuyIdx, currentSellIdx, currentProfit];
+    }
+}
+
+console.log(bestBuy(arr0));
+console.log(bestBuy(arr1));
+console.log(bestBuy(arr2));
+
+</script>
+</body>
+</html>
